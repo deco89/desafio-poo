@@ -1,17 +1,9 @@
 package apps;
 
-public class ReprodutorMusica {
+public interface ReprodutorMusica {
 
-  public void tocar() {
-    System.out.println("TOCANDO MUSICA");
-  }
-
-  public void pausar() {
-    System.out.println("PAUSANDO MUSICA");
-  }
-
-  public void selecionarMusica() {
-    System.out.println("SELECIONANDO MUSICA");
-  }
+  public void tocar();
+  public void pausar();
+  public void selecionarMusica();
 
 }

@@ -1,17 +1,11 @@
 package apps;
-public class AparelhoTelefonico {
+public interface AparelhoTelefonico {
 
-  public void ligar() {
-    System.out.println("LIGANDO PARA CONTATO");
-  }
+  public void ligar();
 
-  public void atender() {
-    System.out.println("ATENDENDO CONTATO");
-  }
+  public void atender();
 
-  public void iniciarCorreioDeVoz() {
-    System.out.println("INICIANDO CORREIO DE VOZ");
-  }
+  public void iniciarCorreioDeVoz();
 
 
 }

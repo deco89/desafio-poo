@@ -1,17 +1,11 @@
 package apps;
-public class NavegadorInternet {
+public interface NavegadorInternet {
 
-  public void exibirPagina() {
-    System.out.println("EXIBINDO PÁGINA");
-  }
+  public void exibirPagina();
 
-  public void adicionarNovaAba() {
-    System.out.println("ADICIONANDO NOVA ABA");
-  }
+  public void adicionarNovaAba();
 
-  public void atualizarPagina() {
-    System.out.println("ATUALIZANDO PÁGINA");
-  }
+  public void atualizarPagina();
 
 
 }
